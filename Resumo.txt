@@ -1,0 +1,9 @@
+Visualização do jogo pedra, papel e tesoura.
+
+Implementado usando a linguagem C++, além da API Qt e com a IDE Qt-Creator.
+
+Utilizando como base uma janela principal, criamos a parte da visualização dentro da mesma, onde ocorre o jogo de forma gráfica.
+Realizada a sobrecarga sobre os métodos de movimento do mouse, pode-se movimentar os objetos pela tela.
+Usando a sobrescrita do método "colisao", contido na classeAbstrata, as classes Pedra, Papel e Tesoura interagem entre si por meio da função de colisão já implementada pelo Qt.
+Com o auxilio das classes de manipulação de arquivos já existentes no Qt, foi possivel criar o sistema de "checkpoint" no jogo.
+
